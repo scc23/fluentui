@@ -435,6 +435,12 @@ export interface ILineChartPoints {
    * Defines the function that is executed on clicking  line
    */
   onLineClick?: () => void;
+
+  /**
+   * Enable/disable gradient color for the legend in the chart
+   * @defaultvalue false
+   */
+  gradient?: boolean;
 }
 
 /**
